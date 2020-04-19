@@ -17,6 +17,9 @@
 		194822E7244BF11700FA2DEA /* MakeADishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194822E6244BF11700FA2DEA /* MakeADishUITests.swift */; };
 		194822F9244BF83C00FA2DEA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 194822F7244BF83C00FA2DEA /* Podfile */; };
 		194822FA244BF83C00FA2DEA /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 194822F8244BF83C00FA2DEA /* Podfile.lock */; };
+		195BF4FD244C07A30046DC3E /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BF4FC244C07A30046DC3E /* Dish.swift */; };
+		195BF4FF244C08B80046DC3E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BF4FE244C08B80046DC3E /* Ingredient.swift */; };
+		195BF501244C08D10046DC3E /* IngredientCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BF500244C08D10046DC3E /* IngredientCategory.swift */; };
 		A05BF056A7D71ABA4EBD5A44 /* Pods_MakeADish_MakeADishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243B9D96BDE714BF651BA96A /* Pods_MakeADish_MakeADishUITests.framework */; };
 		A1017327B071B58C520AACCF /* Pods_MakeADish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4F19E59ABA27DBB4776F92 /* Pods_MakeADish.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +58,9 @@
 		194822E8244BF11700FA2DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194822F7244BF83C00FA2DEA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		194822F8244BF83C00FA2DEA /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		195BF4FC244C07A30046DC3E /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		195BF4FE244C08B80046DC3E /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		195BF500244C08D10046DC3E /* IngredientCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCategory.swift; sourceTree = "<group>"; };
 		243B9D96BDE714BF651BA96A /* Pods_MakeADish_MakeADishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeADish_MakeADishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		614B785510C6016896FD5B90 /* Pods-MakeADish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeADish.debug.xcconfig"; path = "Target Support Files/Pods-MakeADish/Pods-MakeADish.debug.xcconfig"; sourceTree = "<group>"; };
 		6FF6863F33766A970304462E /* Pods-MakeADishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeADishTests.release.xcconfig"; path = "Target Support Files/Pods-MakeADishTests/Pods-MakeADishTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +166,9 @@
 		194822F6244BF51000FA2DEA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				195BF4FC244C07A30046DC3E /* Dish.swift */,
+				195BF4FE244C08B80046DC3E /* Ingredient.swift */,
+				195BF500244C08D10046DC3E /* IngredientCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -410,6 +419,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				194822C9244BF11100FA2DEA /* DishPickerViewController.swift in Sources */,
+				195BF4FD244C07A30046DC3E /* Dish.swift in Sources */,
+				195BF501244C08D10046DC3E /* IngredientCategory.swift in Sources */,
+				195BF4FF244C08B80046DC3E /* Ingredient.swift in Sources */,
 				194822C5244BF11100FA2DEA /* AppDelegate.swift in Sources */,
 				194822C7244BF11100FA2DEA /* SceneDelegate.swift in Sources */,
 			);
