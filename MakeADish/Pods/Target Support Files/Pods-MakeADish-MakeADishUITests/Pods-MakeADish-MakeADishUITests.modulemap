@@ -1,0 +1,6 @@
+framework module Pods_MakeADish_MakeADishUITests {
+  umbrella header "Pods-MakeADish-MakeADishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
